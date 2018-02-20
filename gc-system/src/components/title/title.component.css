@@ -1,0 +1,8 @@
+.certificates-title-container {
+    height: var(--system-site-title-height);
+    line-height: var(--system-site-title-height);
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    align-self: center;
+}

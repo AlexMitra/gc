@@ -1,0 +1,14 @@
+.footer-container{
+    background-color: var(--system-color-blue);
+    height: var(--system-nav-footer-height);
+    color: black;
+    display: grid;
+    grid-template-rows: 1fr [footer-content-row-start] auto [footer-content-row-end] 1fr;
+    font-size: 70%;
+}
+
+.year-declaration{
+    width: 100%;
+    text-align: center;
+    grid-row: footer-content-row-start / footer-content-row-end;
+}

@@ -1,0 +1,28 @@
+.login-body-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /*min-height: calc(100vh - var(--system-nav-footer-height));*/
+    display: grid;
+    grid-template-rows: [title-content-start]
+    0
+    [title-content-end login-content-row-start]
+    1fr
+    [login-content-row-end]
+    150px;
+    grid-template-columns: repeat(2, [col-start] minmax(var(--system-form-min-width), 1fr) [col-end]);
+    justify-items: center;
+    align-items: center;
+}
+
+.login-content-row-middle {
+    grid-row: login-content-row-start / login-content-row-end;
+}
+
+.login-form-container {
+    /*width: 400px;*/
+    /*height: 310px;*/
+    width: 350px;
+    height: 280px;
+    padding: var(--system-form-padding);
+}

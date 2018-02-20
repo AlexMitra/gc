@@ -1,0 +1,29 @@
+.certificate-view-header {
+    height: 60px;
+    line-height: 60px;
+}
+
+.certificate-view-header-middle-row {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.certificate-view-title {
+    display: inline-block;
+    width: 66%;
+    text-align: left;
+    font-size: 90%;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.certificate-view-date {
+    display: inline-block;
+    width: 34%;
+    text-align: right;
+    font-size: 80%;
+}

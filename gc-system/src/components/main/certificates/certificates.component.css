@@ -1,0 +1,32 @@
+.certificates-body-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: grid;
+    /*min-height: calc(100vh - var(--system-nav-footer-height));*/
+    grid-template-rows: [search-content-start]
+    60px
+    [search-content-end certificates-content-start]
+    1fr
+    [certificates-content-end pagination-content-start]
+    100px
+    [pagination-content-end];
+    justify-items: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.certificates-search-container {
+    grid-row: search-content-start / search-content-end;
+
+    align-self: center;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.certificates-pagination-container {
+    grid-row: pagination-content-start / pagination-content-end;
+    width: 100%;
+}

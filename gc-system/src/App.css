@@ -1,0 +1,31 @@
+.body-wrapper {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: var(--system-font-family);
+}
+
+.common-body-component {
+    display: block;
+    width: 100%;
+}
+
+.nav-component-section {
+    height: var(--system-nav-footer-height);
+}
+
+.message-component-section {
+    max-height: var(--system-messages-height);
+}
+
+.main-component-section {
+    min-height: calc(100vh - var(--system-nav-footer-height));
+}
+
+.main-component-section-padding {
+    padding-top: calc(var(--system-nav-footer-height) + var(--system-messages-height));
+}
+
+.footer-component-section {
+    height: var(--system-nav-footer-height);
+}

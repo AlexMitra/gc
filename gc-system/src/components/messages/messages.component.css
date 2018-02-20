@@ -1,0 +1,42 @@
+.message-container {
+    height: var(--system-messages-height);
+    line-height: var(--system-messages-height);
+    padding: 0 30px;
+    position: fixed;
+    top: var(--system-nav-footer-height);
+    width: 100%;
+}
+
+.error-message {
+    background-color: var(--system-color-error-background);
+    color: var(--system-color-error-message);
+}
+
+.info-message {
+    background-color: var(--system-color-info-background);
+    color: var(--system-color-blue);
+}
+
+.empty-message {
+    opacity: 0.2;
+}
+
+.message-middle-row {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.message-sign{
+    width: 30px;
+}
+
+.message-content {
+    width: calc(80% - 2*30px);
+}
+
+.message-close {
+    width: calc(20% - 30px);
+    text-align: right;
+    cursor: pointer;
+}

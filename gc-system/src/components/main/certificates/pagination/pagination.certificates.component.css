@@ -1,0 +1,132 @@
+:root {
+    --system-pagination-section-width: calc(11 * var(--system-button-height));
+}
+
+.page-number-buttons-container {
+    clear: both;
+    width: calc(11 * var(--system-button-height) + 220px);
+    margin-left: calc(50% - var(--system-pagination-section-width) / 2 - 220px);
+    height: 50px;
+}
+
+.page-buttons-container {
+    clear: both;
+    margin: auto;
+    width: var(--system-pagination-section-width);
+    height: 50px;
+}
+
+.certificate-page-size-section {
+    float: left;
+    outline: 0;
+    overflow: hidden;
+    height: var(--system-button-height);
+    width: 170px;
+    color: var(--system-color-blue);
+    margin-right: 50px;
+    font-size: 95%;
+    text-align: right;
+}
+
+select {
+    direction: rtl;
+}
+
+option {
+    direction: ltr;
+}
+
+.certificates-page-size-select {
+    outline: 0;
+    overflow: hidden;
+    height: var(--system-button-height);
+    border: 0;
+    color: var(--system-color-blue);
+}
+
+.pagination-number-button {
+    float: left;
+    width: var(--system-button-height);
+    height: var(--system-button-height);
+    font-family: var(--system-font-family);
+    font-size: 70%;
+    font-weight: 500;
+    outline: none;
+}
+
+.pagination-number-button-enabled {
+    border: 1px solid var(--system-color-medium-grey);
+    background-color: white;
+    color: var(--system-color-blue);
+    cursor: pointer;
+}
+
+.pagination-number-button-enabled:hover {
+    border: 2px solid var(--system-color-grey);
+}
+
+.pagination-number-button-enabled:active {
+    border: 2px solid var(--system-color-grey);
+}
+
+.pagination-number-button-disabled {
+    border: 1px solid var(--system-color-medium-grey);
+    background-color: white;
+    color: var(--system-color-grey);
+    cursor: default;
+}
+
+.pagination-number-button-current {
+    border: 1px solid var(--system-color-dark-blue);
+    background-color: var(--system-color-blue);
+    color: white;
+    cursor: pointer;
+}
+
+.pagination-number-button-current:hover {
+    background-color: var(--system-color-dark-blue);
+}
+
+.pagination-number-button-current:active {
+    background-color: var(--system-color-dark-blue);
+}
+
+.pagination-way-button-container {
+    display: inline-block;
+    width: calc(var(--system-pagination-section-width) / 2);
+}
+
+.pagination-way-button {
+    width: 120px;
+    height: var(--system-button-height);
+    border-radius: 15px;
+    background-color: white;
+    font-family: var(--system-font-family);
+    font-size: 70%;
+    font-weight: 500;
+    outline: none;
+}
+
+.pagination-way-button-enabled {
+    border: 1px solid var(--system-color-blue);
+    color: var(--system-color-blue);
+    cursor: pointer;
+}
+
+.pagination-way-button-enabled:hover {
+    border: 2px solid var(--system-color-dark-blue);
+}
+
+.pagination-way-button-enabled:active {
+    border: 2px solid var(--system-color-dark-blue);
+}
+
+.pagination-way-button-disabled {
+    border: 1px solid var(--system-color-grey);
+    color: var(--system-color-grey);
+    cursor: default;
+}
+
+.align-right {
+    text-align: right;
+}

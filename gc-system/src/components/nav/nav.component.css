@@ -1,0 +1,67 @@
+.nav-container {
+    background-color: var(--system-color-light-grey);
+    height: var(--system-nav-footer-height);
+    color: var(--system-color-blue);
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(150px, 45%)
+    10%
+    [user-image-start]
+    10%
+    [user-image-end user-name-start]
+    10%
+    [user-name-end menu-content-start]
+    25%
+    [menu-content-end];
+}
+
+.nav-row-middle {
+    height: var(--system-nav-footer-height);
+    line-height: var(--system-nav-footer-height);
+}
+
+.nav-title{
+    padding-left: 30px;
+}
+
+.nav-localization {
+    text-align: center;
+}
+
+.nav-user-avatar {
+    height: 50px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.nav-user-image {
+    grid-column: user-image-start / user-image-end;
+    margin: auto;
+}
+
+.nav-user-name {
+    grid-column: user-name-start / user-name-end;
+    color: var(--system-color-authorized-user);
+}
+
+.nav-menu {
+    grid-column: menu-content-start / menu-content-end;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--system-color-grey);
+}
+
+.nav-selected-link {
+    text-decoration: none;
+    color: var(--system-color-blue);
+}
+
+.nav-authorized-link {
+    text-decoration: none;
+    color: var(--system-color-authorized-user);
+}

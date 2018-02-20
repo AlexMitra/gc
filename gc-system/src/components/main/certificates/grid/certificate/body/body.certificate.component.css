@@ -1,0 +1,24 @@
+.certificate-view-body {
+    height: calc(100% - 2 * 60px);
+    background-color: var(--system-certificate-view-body-background);
+    overflow: hidden;
+}
+
+.certificate-view-tag {
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    padding: 3px 10px;
+    background-color: var(--system-certificate-view-tag-background);
+    color: white;
+    border-radius: 5px;
+    font-size: 80%;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.certificate-view-description {
+    word-wrap: break-word;
+}

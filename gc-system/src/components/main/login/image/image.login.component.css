@@ -1,0 +1,5 @@
+.login-image-container {
+    min-width: var(--system-form-min-width);
+    max-width: 75%;
+    height: 320px;
+}

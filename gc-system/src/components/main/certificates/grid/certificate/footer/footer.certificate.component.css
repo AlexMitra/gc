@@ -1,0 +1,53 @@
+.certificate-view-footer {
+    height: 60px;
+    line-height: 60px;
+}
+
+.certificate-view-footer-middle-row {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.certificate-view-footer-element-container {
+    display: inline-block;
+    width: 25%;
+}
+
+.certificate-footer-button {
+    width: 70px;
+    padding: 0 5px;
+    height: var(--system-button-height);
+    background-color: var(--system-color-error-message);
+    border-radius: 5px;
+    font-size: 80%;
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+    text-align: center;
+}
+
+.certificate-footer-button:hover {
+    background-color: brown;
+    color: white;
+}
+
+.certificate-footer-button:active {
+    background-color: brown;
+    color: white;
+}
+
+.certificate-footer-button:visited {
+    color: white;
+}
+
+.certificate-view-footer-price {
+    margin-right: 0;
+    font-weight: 500;
+    font-size: 90%;
+}

@@ -1,0 +1,30 @@
+:root {
+  --system-color-blue: rgb(25, 118, 210);
+  --system-color-dark-blue: rgb(20, 90, 165);
+  --system-color-light-grey: rgb(225, 225, 225);
+  --system-color-medium-grey: rgb(199, 199, 199);
+  --system-color-grey: rgb(123, 146, 158);
+  --system-color-error-message: rgba(225, 45, 45, 0.8);
+
+  --system-color-error-background: rgb(255, 180, 155);
+  --system-color-info-background: rgb(150, 180, 255);
+
+  --system-color-authorized-user: rgb(250, 30, 0);
+  --system-nav-footer-height: 60px;
+  --system-messages-height: 40px;
+  --system-site-title-height: 150px;
+  --system-font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+  --system-form-min-width: 350px;
+
+  --system-form-padding: 20px;
+  --system-button-height: 30px;
+
+  --system-certificate-view-body-background: rgba(115, 160, 230, 0.2);
+  --system-certificate-view-tag-background: rgb(75, 175, 80);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
